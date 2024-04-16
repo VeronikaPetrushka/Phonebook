@@ -1,0 +1,32 @@
+.registerForm {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.registerLabel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.registerInput {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    padding: 8px 16px;
+}
+
+.registerBtn {
+    padding: 10px 32px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
