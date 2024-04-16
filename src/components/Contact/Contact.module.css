@@ -13,7 +13,8 @@ p {
     align-items: center;
     padding: 10px;
     height: 45px;
-    margin-top: 10px;
+    max-width: 320px;
+    min-width: 300px;
 }
 
 .UserContact {

@@ -1,5 +1,10 @@
 .ContactList {
     list-style-type: none;
-    margin: 20px auto 0;
+    margin: 20px auto;
     padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }

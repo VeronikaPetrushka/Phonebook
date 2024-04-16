@@ -1,10 +1,10 @@
 .ContactForm {
     display: flex;
-    flex-direction: column;
-    border: 1px solid;
-    border-radius: 4px;
-    border-color: black;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .ContactFormItem {
@@ -13,13 +13,9 @@
     gap: 5px;
 }
 
-.ContactFormItem:not(:first-child) {
-    margin-top: 10px;
-}
-
 .ContactFormLabel {
     color: black;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .ContactFormInput {
@@ -28,8 +24,10 @@
     border-color: black;
     border-radius: 4px;
     font-size: 12px;
-    padding: 4px 8px;
+    padding: 8px 16px;
     background-color: transparent;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 .ErrorMessage {
@@ -42,13 +40,12 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
     background-color: blue;
     border-color: transparent;
-    width: 100px;
-    height: 30px;
-    margin: 10px auto 0;
+    width: 200px;
+    height: 32px;
     outline: none;
 }
 
